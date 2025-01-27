@@ -1,0 +1,99 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* Açık pembe arka plan */
+    color: #4a4a4a; /* Koyu gri yazı rengi */
+    padding: 0;
+    margin: 0;
+}
+
+/* Header ve Navigasyon */
+header {
+    background-color: #5f89eb; /* Canlı pembe */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+header ul li a:hover {
+    background-color: #af40ff; 
+    border-radius: 5px;
+}
+
+/* Ana İçerik */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #9107c3; 
+}
+
+main p, main form {
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    background-color: #5f89eb; 
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Form Stilleri */
+form label {
+    display: block;
+    margin-top: 1rem;
+    text-align: left;
+    color: #a52eef;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border: 1px solid #b12ff1; 
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #b340ff; 
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #3a81dd; 
+}
